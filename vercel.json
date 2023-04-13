@@ -2,8 +2,8 @@
   "version": 2,
   "routes": [
     {
-      "src": "/callback(.*)",
-      "dest": "https://peckot-studios.firebaseapp.com/__/auth/handler$1"
+      "src": "(.*)",
+      "dest": "https://peckot-studios.firebaseapp.com$1"
     }
   ]
 }
