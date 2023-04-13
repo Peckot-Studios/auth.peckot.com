@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/callback(.*)",
+      "dest": "https://peckot-studios.firebaseapp.com/__/auth/handler$1"
+    }
+  ]
+}
